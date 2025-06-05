@@ -63,16 +63,24 @@ button {
 }
 
 #progess-bar {
-    background-color: rgb(139, 141, 140);
+    background-color: rgb(139, 153, 156);
     height: 3px;
     width: 100%;
-    margin-bottom: 2em;
-    border-radius: 100px;
+    border-radius: 15px;
+    margin-bottom: 1em;
 }
 
+
+
 #current-progress {
+    --progress: 0%;
     background-color: white;
     height: inherit;
-    width: 50%;
+    width: var(--progress);
     border-radius: inherit;
+
+}
+
+#progress-container{
+    padding-bottom: 1em;
 }
